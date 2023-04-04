@@ -61,6 +61,72 @@ git commit -m "[HTML/CSS/JS] 벤딩머신 구현하기"
        </a>
        <br>
      </td>
+     <td align="center">
+       <a href="https://github.com/shyoun94">
+       <img src="https://avatars.githubusercontent.com/u/38209666?v=4?s=100" width="100px;" alt=""/><br />
+       <sub>
+         <b>prefer_youn</b>
+         <br>
+         <span>조원</span>
+       </sub>
+       </a>
+       <br>
+     </td>
+     <td align="center">
+       <a href="https://github.com/seokhyungth">
+       <img src="https://avatars.githubusercontent.com/u/123619657?v=4?s=100" width="100px;" alt=""/><br />
+       <sub>
+         <b>seokhyungth</b>
+         <br>
+         <span>조원</span>
+       </sub>
+       </a>
+       <br>
+     </td>
+     <td align="center">
+       <a href="https://github.com/tmfdk0213">
+       <img src="https://avatars.githubusercontent.com/u/126536495?v=4?s=100" width="100px;" alt=""/><br />
+       <sub>
+         <b>seula</b>
+         <br>
+         <span>조원</span>
+       </sub>
+       </a>
+       <br>
+     </td>
+     <td align="center">
+       <a href="https://github.com/uussong">
+       <img src="https://avatars.githubusercontent.com/u/77879633?v=4?s=100" width="100px;" alt=""/><br />
+       <sub>
+         <b>uussong</b>
+         <br>
+         <span>조원</span>
+       </sub>
+       </a>
+       <br>
+     </td>
+      <td align="center">
+       <a href="https://github.com/jjo-mi">
+       <img src="https://avatars.githubusercontent.com/u/116716381?v=4?s=100" width="100px;" alt=""/><br />
+       <sub>
+         <b>jongmi jung</b>
+         <br>
+         <span>조원</span>
+       </sub>
+       </a>
+       <br>
+     </td>
+      <td align="center">
+       <a href="https://github.com/soooee4">
+       <img src="https://avatars.githubusercontent.com/u/126536384?v=4?s=100" width="100px;" alt=""/><br />
+       <sub>
+         <b>soooee4</b>
+         <br>
+         <span>조원</span>
+       </sub>
+       </a>
+       <br>
+     </td>
    </tr>
 </table>
  
