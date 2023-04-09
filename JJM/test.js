@@ -74,4 +74,14 @@ const str = 'hello world';
 const answer = str.split("").reverse().join("")
 
 
+/* 💡 연습문제 5번
+
+[5]. 로또 번호를 추첨하는 코드를 작성해주세요.
+*/
+
+const lotto = [];
+
+for(let i = 0; i <7; i++) {
+  lotto.push(parseInt(Math.random() * 45 + 1));
+}
 
