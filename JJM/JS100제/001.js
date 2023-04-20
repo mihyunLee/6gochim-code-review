@@ -1,2 +1,5 @@
-const hello = 1;
-const gg = 1;
+const nums = [100, 200, 300, 400, 500];
+
+nums.pop();
+nums.pop();
+
