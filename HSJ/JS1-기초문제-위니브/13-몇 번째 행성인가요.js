@@ -12,3 +12,4 @@ const planets = [
 const n = parseInt(prompt("몇 번째 행성인가요?"));
 
 console.log(planets[n - 1]);
+
