@@ -8,5 +8,12 @@
 // }
 
 const scores = prompt("세 과목의 점수를 입력해보세용").split(" ");
+// scores =  ['val1', 'val2', 'val3'];
+let sum = 0;
+scores.forEach((score) => {
+  sum += Number(score);
+});
 
-// 떠오르지 않아 .. 🤯
+const average = sum / scores.length;
+
+alert(average);
