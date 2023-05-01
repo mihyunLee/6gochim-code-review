@@ -11,6 +11,4 @@
 // const name = prompt('이름을 입력하세요')
 const name = '김다정'
 
-if (name === '김다정') {
-  console.log(`안녕하세요. 저는 ${name}입니다.`)
-}
+console.log(`안녕하세요. 저는 ${name}입니다.`)
