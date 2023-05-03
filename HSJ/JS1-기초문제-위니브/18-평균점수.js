@@ -15,6 +15,6 @@ scores.forEach((score) => {
   sum += Number(score);
 });
 
-const average = sum / scores.length;
+const average = (sum / scores.length).toFixed(1);
 
 alert(average);
