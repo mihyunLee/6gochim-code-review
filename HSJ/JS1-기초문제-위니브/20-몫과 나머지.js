@@ -4,7 +4,7 @@
 
 function division() {
   const nums = prompt("두 숫자를 공백으로 구분하여 입력하세용💡").split(" ");
-  let quotient = Number(nums[0] / nums[1]);
+  let quotient = parseInt(nums[0] / nums[1]);
   let remainder = Number(nums[0] % nums[1]);
   console.log(`${quotient} ${remainder}`);
 }
