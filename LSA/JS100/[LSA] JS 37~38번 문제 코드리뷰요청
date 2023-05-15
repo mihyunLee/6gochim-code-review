@@ -54,7 +54,7 @@ winner = Object.keys(result).reduce(function (a, b) {
   return result[a] > result[b] ? a : b;
 });
 console.log(winner);
-const n = prompt( `${winner}이가 총 ${result[winner]}표로 반장이 되었습니다✨`);
+alert( `${winner}이가 총 ${result[winner]}표로 반장이 되었습니다✨`);
 
 
 //# 문제38 : 호준이의 아르바이트
