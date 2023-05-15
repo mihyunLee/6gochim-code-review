@@ -16,7 +16,7 @@ function solution(scores){
     // 중복 제거
     const set = new Set(scoreData)
     // 3위 점수
-    const thirdNum = [...set][2]
-    console.log(scoreData.filter((v)=> v >= thirdNum).length)
+    const thirdScore = [...set][2]
+    console.log(scoreData.filter((v)=> v >= thirdScore).length)
 }
 solution('97 86 75 66 55 97 85 97 97 95') // 6
