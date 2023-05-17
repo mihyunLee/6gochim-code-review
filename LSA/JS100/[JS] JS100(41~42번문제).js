@@ -18,9 +18,7 @@ function sosu(number) {
   console.log("sosu yes");
 }
 sosu(num);
-
-
-
+ㅎㅎ
 
 //2020년 1월 1일은 수요일입니다. 2020년 a월 b일은 무슨 요일일까요?
 //두 수 a, b를 입력받아 2020년 a월 b일이 무슨 요일인지 리턴하는 함수 solution을 완성하세요.
