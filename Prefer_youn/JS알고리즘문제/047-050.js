@@ -1,19 +1,19 @@
 // 문제47 : set 자료형의 응용
-// const people = {
-//   이호준: "01050442903",
-//   이호상: "01051442904",
-//   이준호: "01050342904",
-//   이호준: "01050442903",
-//   이준: "01050412904",
-//   이호: "01050443904",
-//   이호준: "01050442903"
-// };
-// const newPeople = new Set(); 
+const people = {
+  이호준: "01050442903",
+  이호상: "01051442904",
+  이준호: "01050342904",
+  이호준: "01050442903",
+  이준: "01050412904",
+  이호: "01050443904",
+  이호준: "01050442903"
+};
+const newPeople = new Set(); 
 
-// for(let index in people){
-//   newPeople.add(people[index]);
-// }
-// console.log(newPeople.size);
+for(let index in people){
+  newPeople.add(people[index]);
+}
+console.log(newPeople.size);
 //set의 경우에는 키 값이 없기 때문에 size로 크기를 가져와야 한다.
 
 // 문제48 : 대소문자 바꿔서 출력하기
