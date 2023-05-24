@@ -90,17 +90,17 @@ function mergeSort(arr) {
     return mergeSortResult;
   }
   
-  var mid = Math.floor(mergeSortResult.length / 2);
-  var left = mergeSortResult.slice(0, mid);
-  var right = mergeSortResult.slice(mid);
+  let mid = Math.floor(mergeSortResult.length / 2);
+  let left = mergeSortResult.slice(0, mid);
+  let right = mergeSortResult.slice(mid);
   
   return merge(mergeSort(left), mergeSort(right));
 }
 //배열을 이분화하는 과정(재귀)
 function merge(left, right) {
-  var result = [];
-  var i = 0;
-  var j = 0;
+  let result = [];
+  let i = 0;
+  let j = 0;
   
   while (i < left.length && j < right.length) {
     if (left[i] < right[j]) {
