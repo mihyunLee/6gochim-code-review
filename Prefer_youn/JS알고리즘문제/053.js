@@ -10,7 +10,7 @@ function isBracketMatching(bracket) {
 
     if (char === '{' || char === '(' || char === '[') {
       stack.push(char); // '{'를 스택에 추가
-    } else if (char === '{' || char === ')' || char === ']') {
+    } else if (char === '}' || char === ')' || char === ']') {
       if (stack.length === 0) {
         return false; // 스택이 비어있는데 '}'를 만남 (매칭되지 않은 상황)
       }
