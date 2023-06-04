@@ -25,3 +25,34 @@ const bracket = '{{{{{}}}}}';
 const isMatching = isBracketMatching(bracket);
 
 console.log(isMatching); // true
+
+//해당코드 문제: ||로 입력만 처리해서 pair가 맞지 않아도 true 반환
+//해당부분 수정 및 코드 완성
+
+function isBracketMatching(bracket) {
+  const stack = [];
+
+  const openingBrackets = ['{', '(', '['];
+  const closingBrackets = ['}', ')', ']'];
+
+  for (let i = 0; i < bracket.length; i++) {
+    const char = bracket[i];
+
+    if (openingBrackets.includes(char)) {
+      stack.push(char);
+    } else if (closingBrackets.includes(char)) {
+      const matchingOpeningBracket = openingBrackets[closingBrackets.indexOf(char)];
+      if (stack.length === 0 || stack[stack.length - 1] !== matchingOpeningBracket) {
+        return false;
+      }
+      stack.pop();
+    }
+  }
+
+  return stack.length === 0;
+}
+
+const bracket = '{([[[{{{{{}}]}}]]])}';
+const isMatching = isBracketMatching(bracket);
+
+console.log(isMatching);
