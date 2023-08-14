@@ -3,8 +3,18 @@
 // 민주를 위해 키가 주어지면 순서대로 제대로 섰는지 확인하는 프로그램을 작성해보자.
 // (키는 공백으로 구분하여 입력됩니다.)
 
-const friends = prompt("공백으로 구분하여 키를 입력해보세용").split(" ").sort();
+const unsorted = prompt("키를 입력하세요");
+let sorted = "";
 
-console.log([...friends]);
+sorted = unsorted
+  .split(" ") // 입력받은 문자열을 공백 기준으로 분리
+  .sort(function (a, b) {
+    return a - b;
+  }) // 숫자 배열을 오름차순으로 정렬하기 위한 함수
+  .join(" ");
 
-//하 .. 오름차순 정렬 이후 도무지 떠오르지 않아 .. 힌트를 부타캐요 .... ... !!!!
+if (unsorted === sorted) {
+  console.log("Yes!!");
+} else {
+  console.log("No~~");
+}
