@@ -3,6 +3,25 @@
 // 1위 ~ 3위 학생은 여러명일 수 있고 1~3위 학생 중 중복되는 학생까지 포함하여 사탕을 사기로 한다.
 // 학생들의 점수를 공백으로 구분하여 입력을 받고 사탕을 받을 학생의 수를 출력하세요.
 
-const scores = prompt("학생들의 점수를 입력해주세요.").split(" ");
+const scores = prompt("점수입력")
+  .split(" ")
+  .map(function (n) {
+    return parseInt(n, 10); // 문자열 배열을 숫자 배열로 반환
+  });
 
-// 쳇센세와 2시간 씨름 했지만 정말 도무지 전혀 모르겠습니다. 죄송합니다. 사과합니다. 송구합니다.
+scores.sort((a, b) => {
+  return a - b;
+}); // 숫자 배열 오름차순 정렬
+
+let count = 0; // 시도 횟수 카운트
+let arr = []; // 유일한 점수 저장
+
+while (arr.length < 3) {
+  let n = scores.pop(); // 가장 큰 값 제거하여 n에 저장한 후 arr에 없는 경우 포함시킴 (3개의 유일한 점수가 저장될 때까지)
+  if (!arr.includes(n)) {
+    arr.push(n);
+  }
+  count += 1;
+}
+
+console.log(count);
